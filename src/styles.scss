@@ -44,6 +44,9 @@ body{
   display:flex;
   margin-top:150px;
   font-size:12px;
+  &.contact{
+    margin-top: 76px;
+  }
   .spacer{
     width:372px;
     flex:none;
@@ -76,5 +79,19 @@ body{
   // background-size: auto 600px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+
+}
+.contactImage{
+  background-image:url("/assets/images/CONTACT.jpg");
+  height: 400px;
+  // background-size: auto 600px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+.center{
+  display:flex;
+  justify-content: center;
+  margin: 16px;
 
 }
