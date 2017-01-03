@@ -12,6 +12,7 @@ import { FilmComponent } from './film/film.component';
 import { IssueComponent } from './issue/issue.component';
 import { ActionComponent } from './action/action.component';
 import { ContactComponent } from './contact/contact.component';
+import { TakeActionComponent } from './take-action/take-action.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -36,7 +37,8 @@ const appRoutes: Routes = [
     FilmComponent,
     IssueComponent,
     ActionComponent,
-    ContactComponent
+    ContactComponent,
+    TakeActionComponent
   ],
   imports: [
     BrowserModule,

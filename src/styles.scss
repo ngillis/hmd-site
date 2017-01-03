@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+
 body{
   font-family: "Montserrat" !important;
+  padding-top:50px;
 }
 //
 // @media (min-width: 576px) .navbar{
@@ -66,7 +68,6 @@ body{
 .HMD{
   background-image:url("/assets/images/HMD_HOME.jpg");
   height: 650px;
-  // background-size: auto 600px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -76,7 +77,6 @@ body{
 .TianeClose{
   background-image:url("/assets/images/TianaCloseUp.jpg");
   height: 400px;
-  // background-size: auto 600px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -84,7 +84,6 @@ body{
 .contactImage{
   background-image:url("/assets/images/CONTACT.jpg");
   height: 400px;
-  // background-size: auto 600px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 
@@ -92,6 +91,17 @@ body{
 .center{
   display:flex;
   justify-content: center;
-  margin: 16px;
-
+  margin: 32px;
+  text-align:center;
+  span{font-style: italic;}
+}
+.navbar.disclaimer{
+  background-color:white;
+}
+.disclaimer-content{
+  font-size:8px;
+  text-align: center;
+}
+.action{
+  margin: 32px;
 }
