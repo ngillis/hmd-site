@@ -7,10 +7,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
+import { GetHelpComponent } from './get-help/get-help.component';
+import { FilmComponent } from './film/film.component';
+import { IssueComponent } from './issue/issue.component';
+import { ActionComponent } from './action/action.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
+  {path: 'help', component:GetHelpComponent},
+
   { path: '',
     redirectTo: '/home',
     pathMatch: 'full'
@@ -21,7 +28,12 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    GetHelpComponent,
+    FilmComponent,
+    IssueComponent,
+    ActionComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
