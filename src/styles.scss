@@ -1,11 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
-
 body{
   font-family: "Roboto" !important;
 }
+//
+// @media (min-width: 576px) .navbar{
+//   border-radius:0px;
+// }
+@media screen and (min-width: 576px){
+  .navbar{
+    border-radius: 0px;
+  }
+}
 
 .navbar{
+  border-radius:0px;
   display:flex;
   background-color: black;
   flex-flow:space-between;
@@ -14,7 +23,8 @@ body{
     &:active{color:white;}
     &:focus{color:white;}
   }
-  a.spacer-nav{width: 80px; border:2px solid blue;
+  &.title{border-radius:0px;}
+  a.spacer-nav{width: 80px;
   flex:none;}
   .getHelp{
     border: 2px solid #fff;
@@ -27,7 +37,6 @@ body{
     flex:none;
     padding-left:22px;
     width:360px;
-
   }
 }
 .content-spacer{flex: 1 1 106px; border:1px solid pink;}
@@ -35,16 +44,10 @@ body{
   display:flex;
   margin-top:150px;
   font-size:12px;
-
   .spacer{
     width:372px;
     flex:none;
-    // flex:1;
-    // padding-left:12px;
   }
-  // .menu, .content{
-  //   flex: 1;
-  // }
   .menu{
     flex: 1 1 300px;
   }
@@ -52,10 +55,18 @@ body{
     flex: 1 1 450px;
     margin-right: 32px;
   }
-  .menu-item{margin-top: 16px; margin-bottom:16px; font-weight:900;}
+  .menu-item{margin-top: 16px;
+    margin-bottom:16px;
+    font-weight:bold;}
   .content{padding-left:32px;}
 }
-.contentSpacer{flex: 1 1 106px;}
 .HMD{
   background-image:url("/assets/images/HMD_HOME.jpg");
+  height: 650px;
+  // background-size: auto 600px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.contentSpacer{
+  flex: 1 1 106px;
 }
