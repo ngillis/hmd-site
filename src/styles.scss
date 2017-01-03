@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body{
-  font-family: "Roboto" !important;
+  font-family: "Montserrat" !important;
 }
 //
 // @media (min-width: 576px) .navbar{
@@ -69,4 +69,12 @@ body{
 }
 .contentSpacer{
   flex: 1 1 106px;
+}
+.TianeClose{
+  background-image:url("/assets/images/TianaCloseUp.jpg");
+  height: 400px;
+  // background-size: auto 600px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
 }
