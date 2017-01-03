@@ -1,8 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+body{
+  font-family: "Roboto" !important;
+}
 .content{
   // background-color:orange;
   // height:100vh;
   // display:flex;
   // flex:1;
+}
+.navbar{
+  display:flex;
+  background-color: black;
+  flex-flow:space-between;
+  a{ flex:1 1 auto; font-size:12px; margin:auto; font-weight:bold; color:white;
+    &:hover{color:white;}}
+  .getHelp{
+    border: 2px solid #fff;
+    padding: 8px;
+    letter-spacing: 0.05rem;
+  }
+  .holdMeDownTitle{
+    font-size: 24px;
+    letter-spacing: 0.30rem;
+    flex:1 1 auto;
+    padding-left:22px;
+
+  }
 }
