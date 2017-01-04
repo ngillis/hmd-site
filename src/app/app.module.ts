@@ -21,6 +21,7 @@ const appRoutes: Routes = [
   {path: 'issue', component:IssueComponent},
   {path: 'action', component:ActionComponent},
   {path: 'contact', component:ContactComponent},
+  { path: '', component: HomeComponent },
 
   { path: '',
     redirectTo: '/home',
