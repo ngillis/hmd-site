@@ -61,22 +61,10 @@ body{
     &:hover{text-decoration:underline; cursor:pointer;}}
   .content{padding-left:32px;}
 }
-.HMD{
-  background-image:url("assets/HMD_HOME.jpg");
-  min-height: 650px;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
 .contentSpacer{
   flex: 1 1 106px;
 }
-.TianeClose{
-  background-image:url("assets/TianaCloseUp.jpg");
-  height: 400px;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 
-}
 .contactImage{
   background-image:url("assets/CONTACT.jpg");
   height: 400px;
