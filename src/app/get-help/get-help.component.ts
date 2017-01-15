@@ -13,13 +13,14 @@ export class GetHelpComponent implements OnInit {
 
   constructor() {
     this.header = {title: 'default'};
+    this.goToHousing = goToHousing;
     console.log('hiii', this.header);
   }
-
-
-
   ngOnInit() {
 
+  }
+  function goToHousing(){
+    console.log('hmmmmmmm');
   }
 
 }
