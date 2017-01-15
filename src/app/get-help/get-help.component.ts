@@ -11,16 +11,19 @@ export class GetHelpComponent implements OnInit {
   title = 'default';
   content ='';
   header={};
+  public goToHousing: goToHousing;
+
+  goToHousing(){
+    this.router.navigate(['/help/housing']);
+  }
 
 
   constructor(
     private route: ActivatedRoute,
     private router: Router
+
   ) {
     this.header = {title: 'default'};
-    this.goToHousing = function (){
-      this.router.navigate(['/help/housing']);
-    }
 
     console.log('hiii', this.header);
   }
