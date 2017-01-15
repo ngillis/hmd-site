@@ -11,11 +11,13 @@ import { GetHelpComponent } from './get-help/get-help.component';
 import { IssueComponent } from './issue/issue.component';
 import { ActionComponent } from './action/action.component';
 import { ContactComponent } from './contact/contact.component';
+import { HousingComponent } from './housing/housing.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
   {path: 'help', component:GetHelpComponent},
+  {path: 'help/housing', component:HousingComponent}
   {path: 'issue', component:IssueComponent},
   {path: 'action', component:ActionComponent},
   {path: 'contact', component:ContactComponent},
@@ -35,7 +37,8 @@ const appRoutes: Routes = [
     GetHelpComponent,
     IssueComponent,
     ActionComponent,
-    ContactComponent
+    ContactComponent,
+    HousingComponent
   ],
   imports: [
     BrowserModule,
