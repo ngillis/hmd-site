@@ -6,9 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./housing.component.scss']
 })
 export class HousingComponent implements OnInit {
-
+  content = '';
   constructor() {
-    this.content = ''
   }
 
   ngOnInit() {
