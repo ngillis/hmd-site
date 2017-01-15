@@ -11,10 +11,14 @@ export class GetHelpComponent implements OnInit {
   title = 'default';
   content ='';
   header={};
-  public goToHousing: goToHousing;
+  // public goToHousing;
+  //
+  // goToHousing(){
+  //   this.router.navigate(['/help/housing']);
+  // }
 
-  goToHousing(){
-    this.router.navigate(['/help/housing']);
+  public goToHousing(): void{
+     this.router.navigate(['/help/housing']);
   }
 
 
