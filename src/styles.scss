@@ -115,12 +115,17 @@ body{
 .words{
   width: 400px;
   font-size:12px;
-
-  margin: 16px 0px;
+  margin: 12px 0px 0px 0px;
   text-align:center;
+  &:last-of-type{margin-bottom:0px;}
 }
 
 .cover-image{
   width:100%;
   height:auto;
+}
+.internal-link{color:black;
+  &:hover{color:black;cursor:pointer;}
+  &:active{color:black;}
+  &:focus{color:black;}
 }
