@@ -45,7 +45,7 @@ h2{font-size: 26px;}
     margin-top: 76px;
   }
   .spacer{
-    width:372px;
+    width:420px;
     flex:none;
   }
   .menu{
@@ -55,9 +55,8 @@ h2{font-size: 26px;}
     flex: 1 1 450px;
     margin-right: 32px;
   }
-  .menu-item{margin-top: 16px;
+  .menu-item{
     margin-bottom:16px;
-
     font-weight:bold;
     &:hover{text-decoration:underline; cursor:pointer;}}
   .content{padding-left:32px;}

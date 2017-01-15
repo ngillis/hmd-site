@@ -13,12 +13,14 @@ import { IssueComponent } from './issue/issue.component';
 import { ActionComponent } from './action/action.component';
 import { ContactComponent } from './contact/contact.component';
 import { HousingComponent } from './housing/housing.component';
+import { FoodComponent } from './food/food.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
   {path: 'help', component:GetHelpComponent},
   {path: 'help/housing', component:HousingComponent},
+  {path: 'help/food', component:FoodComponent},
   {path: 'issue', component:IssueComponent},
   {path: 'action', component:ActionComponent},
   {path: 'contact', component:ContactComponent},
@@ -39,7 +41,8 @@ const appRoutes: Routes = [
     IssueComponent,
     ActionComponent,
     ContactComponent,
-    HousingComponent
+    HousingComponent,
+    FoodComponent
   ],
   imports: [
     BrowserModule,

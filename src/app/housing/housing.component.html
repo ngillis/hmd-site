@@ -3,14 +3,14 @@
   <div class="menu">
     <div class="menu-item" (click)="content = 'lift'">LIFT</div>
     <div class="menu-item" (click)="content = 'pots'">PART OF THE SOLUTION (POTS)</div>
-    <div class="menu-item" (click)="content = 'bronxworks'">BronxWorks</div>
-    <div class="menu-item">FAMILY EVICTION PREVENTION SUPPLEMENT (FEPS)</div>
+    <div class="menu-item" (click)="content = 'bronxworks'">BRONXWORKS</div>
+    <!-- <div class="menu-item">FAMILY EVICTION PREVENTION SUPPLEMENT (FEPS)</div>
     <div class="menu-item">LIVING IN COMMUNITIES PROGRAMS (LINC)</div>
     <div class="menu-item">SPECIAL EXIT AND PREVENTION SUPPLEMENT (SEPS)</div>
     <div class="menu-item">HOME TBRA</div>
-    <div class="menu-item">HOUSING LOTTERIES</div>
-    <div class="menu-item">HABITAT FOR HUMANITY</div>
-    <div class="menu-item">LIFT COMMUNITIES</div>
+    <div class="menu-item">HOUSING LOTTERIES</div> -->
+    <div class="menu-item" (click)="content = 'habitat'">HABITAT FOR HUMANITY</div>
+    <!-- <div class="menu-item">LIFT COMMUNITIES</div> -->
   </div>
 
   <div class="content" *ngIf="content==='lift'">
@@ -54,7 +54,18 @@
     BronxWorks helps individuals and families improve their economic and social well-being. From toddlers to seniors, they feed, shelter, teach, and support Bronx locals to build a stronger community.<br/><br/>
     BronxWorks efforts include Food Stamp outreach, homelessness prevention, job skills training, budgeting and financial literacy counseling, benefits assistance, health insurance assistance, Early Childhood Learning Centers for preschoolers, a high school for students who have fallen behind academically, out-of-school youth programs, foster care prevention, and supportive housing among many other vital services.<br/><br/>
 
-If you need help, please call the Single Stop hotline at (718) 731-3114 or visit any of the walk-in offices below. http://www.bronxworks.org/<br/><br/>
+    If you need help, please call the Single Stop hotline at (718) 731-3114 or visit any of the walk-in offices below. http://www.bronxworks.org/<br/><br/>
+  </div>
+  <div class="content" *ngIf="content ==='habitat'">
+    Habitat For Humanity believes that everyone should have a safe, affordable place to call home. For that purpose, Habitat partners with individuals and families from application through construction to when the keys are handed over. By working together with the future home owner from beginning to end, they help prospective individuals prepare for the various responsibilities of homeownership, including learning about personal finances, mortgages, maintenance and upkeep of homes, and much more.<br/><br/>
+  Habitat’s path to homeownership is an important and in-depth process, requiring hard work, time and dedication. But this helps to ensure the long-term success of Habitat homeowners.<br/><br/>
+
+    Prospective Habitat homeowners must demonstrate a need for safe, affordable housing. Once selected, homeowners must partner with Habitat throughout the process. This partnership includes performing “sweat equity,” or helping to build their own home or the homes of others in the homeownership program. Sweat equity can also include taking homeownership classes or performing volunteer work in a Habitat ReStore.<br/><br/>
+
+    Homeowners must also be able and willing to pay an affordable mortgage. Mortgage payments are cycled back into the community to help build additional Habitat houses.<br/><br/>
+
+    For more information and to learn how you can participate or apply, call 800-422-4828. http://www.habitat.org/housing-help/apply<br/><br/>
+
   </div>
 
 

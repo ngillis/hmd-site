@@ -1,7 +1,11 @@
-<!-- <div class="menu-container" [ngSwitch]="header.content"></div> -->
 <div class="menu-container" [ngSwitch]="header.title">
-  <div class="spacer"></div>
+  <div class="spacer">
+    <div class="quote-text">
+    <span class="quote">“It's one of the greatest gifts you can give yourself, to forgive. Forgive everybody.”</span><br/> - Maya Angelou</div>
+
+  </div>
   <div class="menu" *ngSwitchCase="'default'">
+    <h2>GET HELP</h2>
     <!-- <div class="menu-item" (click)="header.title = 'housing'">I NEED HOUSING</div> -->
     <div class="menu-item" (click)="goToHousing()">I NEED HOUSING</div>
     <div class="menu-item" (click)="header.title = 'food'">I NEED FOOD</div>
