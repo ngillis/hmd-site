@@ -9,12 +9,15 @@ import { Component, OnInit } from '@angular/core';
 export class GetHelpComponent implements OnInit {
   title = 'default';
   content ='';
+  header={};
+
   constructor() {
   }
 
 
 
   ngOnInit() {
+    this.header = {title: 'default'}
   }
 
 }
