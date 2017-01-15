@@ -17,7 +17,7 @@ const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
   {path: 'help', component:GetHelpComponent},
-  {path: 'help/housing', component:HousingComponent}
+  {path: 'help/housing', component:HousingComponent},
   {path: 'issue', component:IssueComponent},
   {path: 'action', component:ActionComponent},
   {path: 'contact', component:ContactComponent},
