@@ -12,12 +12,14 @@ export class GetHelpComponent implements OnInit {
   header={};
 
   constructor() {
+    this.header = {title: 'default'};
+    console.log('hiii', this.header);
   }
 
 
 
   ngOnInit() {
-    this.header = {title: 'default'}
+
   }
 
 }
