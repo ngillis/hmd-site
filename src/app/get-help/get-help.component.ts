@@ -12,19 +12,21 @@ export class GetHelpComponent implements OnInit {
   content ='';
   header={};
 
+
   constructor(
     private route: ActivatedRoute,
     private router: Router
   ) {
     this.header = {title: 'default'};
-    this.goToHousing = goToHousing;
+    this.goToHousing = function (){
+      this.router.navigate(['/help/housing']);
+    }
+
     console.log('hiii', this.header);
   }
   ngOnInit() {
 
   }
-  function goToHousing(){
-    this.router.navigate(['/help/housing']);
-  }
+
 
 }
