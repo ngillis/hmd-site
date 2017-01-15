@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// import { CarouselModule } from '@ng2-bootstrap/ng2-bootstrap/carousel';
+
 
 @Component({
   selector: 'app-home',
