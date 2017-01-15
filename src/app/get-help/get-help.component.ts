@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 
 
 @Component({
@@ -11,7 +12,10 @@ export class GetHelpComponent implements OnInit {
   content ='';
   header={};
 
-  constructor() {
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+  ) {
     this.header = {title: 'default'};
     this.goToHousing = goToHousing;
     console.log('hiii', this.header);
@@ -20,7 +24,7 @@ export class GetHelpComponent implements OnInit {
 
   }
   function goToHousing(){
-    console.log('hmmmmmmm');
+    this.router.navigate(['/help/housing']);
   }
 
 }

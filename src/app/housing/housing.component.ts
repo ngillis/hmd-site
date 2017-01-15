@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HousingComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    this.content = ''
+  }
 
   ngOnInit() {
   }

@@ -111,14 +111,17 @@ body{
   flex-direction:column;
   align-items:center;
   &.videos{margin-top:0px; margin-bottom:0px;}
+  &.intro{margin-bottom:0px;}
 }
 .words{
   width: 400px;
   font-size:12px;
-  margin: 12px 0px 0px 0px;
+  margin: 16px 0px 0px 0px;
   text-align:center;
   &:last-of-type{margin-bottom:0px;}
+  &.intro{margin-top: 0px;}
 }
+.quote{font-style:italic;}
 
 .cover-image{
   width:100%;
