@@ -12,6 +12,10 @@ export class ActionComponent implements OnInit {
   public goToVolunteer(): void{
      this.router.navigate(['/action/volunteer']);
   }
+
+  public goToDonate(): void{
+     this.router.navigate(['/action/cause']);
+  }
   constructor(
     private route: ActivatedRoute,
     private router: Router
