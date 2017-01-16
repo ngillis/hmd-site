@@ -23,6 +23,9 @@ export class GetHelpComponent implements OnInit {
   public goToFood(): void{
      this.router.navigate(['/help/food']);
   }
+  public goToJob(): void{
+     this.router.navigate(['/help/job']);
+  }
 
 
 
