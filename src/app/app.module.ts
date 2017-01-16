@@ -20,6 +20,7 @@ import { ScreeningComponent } from './screening/screening.component';
 import { JobComponent } from './job/job.component';
 import { ViolenceComponent } from './violence/violence.component';
 import { ProstitutionComponent } from './prostitution/prostitution.component';
+import { HealthcareComponent } from './healthcare/healthcare.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -30,6 +31,7 @@ const appRoutes: Routes = [
   {path: 'help/job', component:JobComponent},
   {path: 'help/domestic-violence', component:ViolenceComponent},
   {path: 'help/prostitution', component:ProstitutionComponent},
+  {path: 'help/healthcare', component:HealthcareComponent},
   {path: 'issue', component:IssueComponent},
   {path: 'action', component:ActionComponent},
   {path:'action/volunteer', component:VolunteerComponent},
@@ -60,7 +62,8 @@ const appRoutes: Routes = [
     ScreeningComponent,
     JobComponent,
     ViolenceComponent,
-    ProstitutionComponent
+    ProstitutionComponent,
+    HealthcareComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,69 @@
+
+<div class="menu-container">
+  <div class="spacer">
+    <div class="quote-text">
+    <span class="quote">“It's one of the greatest gifts you can give yourself, to forgive. Forgive everybody.”</span><br/> - Maya Angelou</div>
+  </div>
+  <div class="menu">
+    <div class="menu-item" (click)="content = 'boom'">BOOM!</div>
+    <div class="menu-item" (click)="content = 'parenthood'">PLANNED PARENTHOOD</div>
+    <div class="menu-item" (click)="content = 'pots'">PART OF THE SOLUTION (POTS)</div>
+    <div class="menu-item" (click)="content = 'bronx'">BRONXWORKS</div>
+
+  </div>
+  <div class="content" *ngIf="content ==='boom'">
+    BOOM! provides care coordination, health navigation and nutrition education, counseling and food pantry services. They increase each client’s ability to access resources and services needed to improve their lives and achieve optimal health. They link clients to vital services, ensure that they have access and ongoing care by monitoring and case conferencing with all providers servicing the client. BOOM! works to empower, encourage, support, educate, advocate, refer, link and follow-up to ensure that each client receives the very best care and achieves the highest quality of life that he or she can.<br/><br/>
+    To learn more or enroll in a program, call the Central Office at 718.295.5605 or email them at info@boomhealth.org. Learn more at: http://www.boomhealth.org/issues/access-to-healthcare
+  </div>
+  <div class="content" *ngIf="content ==='parenthood'">
+  For the past century, Planned Parenthood has transformed women's health and empowered millions of people worldwide to make informed health decisions, forever changing the way they live, love, learn and work.<br/><br/>
+  Planned Parenthood is a trusted health care provider, an informed educator, and a passionate advocate, delivering vital reproductive health care, abortions, sex education, and information to millions of women, men, and young people worldwide. <br/><br/>
+Find a a health center near you at https://www.plannedparenthood.org or call 800 230 7526 to speak to someone right away.
+  </div>
+
+
+
+  <div class="content" *ngIf="content ==='pots'">
+    POTS is a “one-stop shop” assisting individuals living in poverty on their journeys from crisis to stability and ultimately, self-sufficiency. <br/><br/>
+    POTS provides food, clothing, shower, hair cuts, and a safe mailing address in addition to many other vital services such as assistance with public benefits (SNAP and health insurance applications on-site), supportive housing, eviction prevention, and general advocacy. POTS also provides referrals to detox and outpatient treatment, shelters, employment, financial counseling, educational programs and more.  <br/><br/>
+    POTS Family Club provides intensive case management, education, social and nutrition support to a select group of families. In addition to weekly meetings with a case manager, families gather once a week in the Community Dining Room. During this time, tutors provide homework assistance to children while their caregivers receive a lesson in nutrition and work with a professional chef to prepare a healthful and novel meal. At the end of each class, the children, caregivers and tutors come back together to share the meal. Highly-engaged families may also be eligible for holiday and special distributions. If you are interested in participating or would like more information, email the Family Club Coordinator at familyclub@potsbronx.org. <br/><br/>
+    New clients are encouraged to visit POTS Single Stop Intake Coordinator to learn more about and enroll in POTS services. The meeting will include a benefits screening. You can meet with the Single Stop Intake Coordinator Monday through Friday 9:00-11:55 am for the Food Pantry or 1:00-4:00 pm for Case Management and Legal Clinic.<br/><br/>
+    2759 Webster Ave, Bronx, NY 10458<br/>
+    (718) 220-4892<br/>
+    http://www.potsbronx.org/<br/>
+
+  </div>
+  <div class="content" *ngIf="content ==='bronxworks'">
+    BronxWorks helps individuals and families improve their economic and social well-being. From toddlers to seniors, they feed, shelter, teach, and support Bronx locals to build a stronger community.
+    <br/><br/>
+    BronxWorks efforts include Food Stamp outreach, homelessness prevention, job skills training, budgeting and financial literacy counseling, benefits assistance, health insurance assistance, Early Childhood Learning Centers for preschoolers, a high school for students who have fallen behind academically, out-of-school youth programs, foster care prevention, and supportive housing among many other vital services.<br/><br/>
+
+    If you need help, please call the Single Stop hotline at (718) 731-3114 or visit any of the walk-in offices below. http://www.bronxworks.org/<br/><br/>
+
+    BronxWorks Avenue St. John Office<br/>
+    630 Southern Blvd.<br/>
+    Bronx, NY 10455<br/><br/>
+
+    BronxWorks Burnside Avenue Office<br/>
+    2070 Grand Concourse<br/>
+    Bronx, NY 10457<br/><br/>
+
+    BronxWorks Bedford Park Office<br/>
+    2925 Grand Concourse<br/>
+    (entrance on 199th St.)<br/>
+    Bronx, NY 10468<br/><br/>
+
+    BronxWorks Townsend Ave. Office<br/>
+    1477 Townsend Ave.<br/>
+    (entrance on 172nd St.)<br/>
+    Bronx, NY 10452<br/>
+  </div>
+
+
+  <div class="contentSpacer"></div>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom disclaimer">
+  <div class="disclaimer-content">The filmmakers and associated production companies behind Hold Me Down do not make any representations or warranties concerning the above-referenced organizations. For information pertaining to each organization’s business practices and/or any tax implications concerning donations, please refer to such individual organizations.
+  </div>
+</nav>
