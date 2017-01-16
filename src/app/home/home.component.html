@@ -1,4 +1,4 @@
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <img class="d-block img-fluid" src="assets/home_1.jpg" alt="First slide">
@@ -21,7 +21,23 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> -->
+
+<ngb-carousel>
+  <template ngbSlide>
+    <img src="assets/home_1.jpg" alt="Firstslide">
+  </template>
+  <template ngbSlide>
+    <img src="assets/home_2.jpg" alt="Second second slide">
+
+  </template>
+  <template ngbSlide>
+    <img src="assets/home_3.jpg" alt="Random third slide">
+  </template>
+  <template ngbSlide>
+    <img src="assets/home_4.jpg" alt="Random third slide">
+  </template>
+</ngb-carousel>
 
 <div class="grid-container">
   <div class="words summary">
