@@ -26,6 +26,12 @@ export class GetHelpComponent implements OnInit {
   public goToJob(): void{
      this.router.navigate(['/help/job']);
   }
+  public goToViolence(): void{
+     this.router.navigate(['/help/domestic-violence']);
+  }
+  public goToProstitution(): void{
+     this.router.navigate(['/help/prostitution']);
+  }
 
 
 
