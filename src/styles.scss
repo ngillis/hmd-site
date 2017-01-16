@@ -16,7 +16,7 @@ h2{font-size: 26px; margin-bottom:36px;}
   background-color: black;
   flex-flow:space-between;
   a{ flex:1 1 auto; font-size:12px; margin:auto; font-weight:bold; color:white;
-    &:hover{color:white;}
+    &:hover{color:white; cursor:pointer;}
     &:active{color:white;}
     &:focus{color:white;}
   }
@@ -110,7 +110,7 @@ h2{font-size: 26px; margin-bottom:36px;}
   margin-bottom:16px;
   flex-direction:column;
   align-items:center;
-  &.videos{margin-top:0px; margin-bottom:0px;}
+  &.videos{margin-top:0px; margin-bottom:0px; &:last-child{margin-bottom:32px;}}
   &.intro{margin-bottom:0px;}
   &.video-text{margin:0px;}
 }
