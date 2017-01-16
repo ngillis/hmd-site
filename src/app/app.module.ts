@@ -16,6 +16,7 @@ import { HousingComponent } from './housing/housing.component';
 import { FoodComponent } from './food/food.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
 import { CauseComponent } from './cause/cause.component';
+import { ScreeningComponent } from './screening/screening.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -27,6 +28,7 @@ const appRoutes: Routes = [
   {path: 'action', component:ActionComponent},
   {path:'action/volunteer', component:VolunteerComponent},
   {path:'action/cause', component:CauseComponent},
+  {path:'action/screening', component:ScreeningComponent},
   {path: 'contact', component:ContactComponent},
   { path: '', component: HomeComponent },
 
@@ -48,7 +50,8 @@ const appRoutes: Routes = [
     HousingComponent,
     FoodComponent,
     VolunteerComponent,
-    CauseComponent
+    CauseComponent,
+    ScreeningComponent
   ],
   imports: [
     BrowserModule,
