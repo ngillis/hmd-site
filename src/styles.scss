@@ -9,7 +9,7 @@ body{
     border-radius: 0px;
   }
 }
-h2{font-size: 26px;}
+h2{font-size: 26px; margin-bottom:36px;}
 .navbar{
   border-radius:0px;
   display: flex;
@@ -121,6 +121,7 @@ h2{font-size: 26px;}
   text-align:justify;
   &:last-of-type{margin-bottom:0px;}
   &.intro{margin-top: 0px;}
+  h2{margin-bottom:16px;}
 }
 .quote{font-style:italic;}
 .image-desc{text-align:center; font-style:italic; margin-top:30px; margin-bottom:30px;}
@@ -135,9 +136,6 @@ h2{font-size: 26px;}
   &:active{color:black;}
   &:focus{color:black;}
 }
-
-.title{margin-bottom:16px;}
-
 .menu-container .spacer{
   padding-left:40px;
   .quote-text{width: 200px;}
