@@ -1,3 +1,57 @@
-<p>
-  food works!
-</p>
+
+<div class="menu-container">
+  <div class="spacer">
+    <div class="quote-text">
+    <span class="quote">“It's one of the greatest gifts you can give yourself, to forgive. Forgive everybody.”</span><br/> - Maya Angelou</div>
+  </div>
+  <div class="menu">
+    <div class="menu-item" (click)="content = 'pots'">PART OF THE SOLUTION (POTS)</div>
+    <div class="menu-item" (click)="content = 'bronxworks'">BRONXWORKS</div>
+
+  </div>
+
+
+  <div class="content" *ngIf="content ==='pots'">
+    POTS is a “one-stop shop” assisting individuals living in poverty on their journeys from crisis to stability and ultimately, self-sufficiency. <br/><br/>
+    POTS provides food, clothing, shower, hair cuts, and a safe mailing address in addition to many other vital services such as assistance with public benefits (SNAP and health insurance applications on-site), supportive housing, eviction prevention, and general advocacy. POTS also provides referrals to detox and outpatient treatment, shelters, employment, financial counseling, educational programs and more.  <br/><br/>
+    POTS Family Club provides intensive case management, education, social and nutrition support to a select group of families. In addition to weekly meetings with a case manager, families gather once a week in the Community Dining Room. During this time, tutors provide homework assistance to children while their caregivers receive a lesson in nutrition and work with a professional chef to prepare a healthful and novel meal. At the end of each class, the children, caregivers and tutors come back together to share the meal. Highly-engaged families may also be eligible for holiday and special distributions. If you are interested in participating or would like more information, email the Family Club Coordinator at familyclub@potsbronx.org. <br/><br/>
+    New clients are encouraged to visit POTS Single Stop Intake Coordinator to learn more about and enroll in POTS services. The meeting will include a benefits screening. You can meet with the Single Stop Intake Coordinator Monday through Friday 9:00-11:55 am for the Food Pantry or 1:00-4:00 pm for Case Management and Legal Clinic.<br/><br/>
+    2759 Webster Ave, Bronx, NY 10458<br/>
+    (718) 220-4892<br/>
+    http://www.potsbronx.org/<br/>
+
+  </div>
+  <div class="content" *ngIf="content ==='bronxworks'">
+    BronxWorks helps individuals and families improve their economic and social well-being. From toddlers to seniors, they feed, shelter, teach, and support Bronx locals to build a stronger community.
+<br/><br/>
+  BronxWorks efforts include Food Stamp outreach, homelessness prevention, job skills training, budgeting and financial literacy counseling, benefits assistance, health insurance assistance, Early Childhood Learning Centers for preschoolers, a high school for students who have fallen behind academically, out-of-school youth programs, foster care prevention, and supportive housing among many other vital services.<br/><br/>
+
+    If you need help, please call the Single Stop hotline at (718) 731-3114 or visit any of the walk-in offices below. http://www.bronxworks.org/<br/><br/>
+
+    BronxWorks Avenue St. John Office<br/>
+630 Southern Blvd.<br/>
+Bronx, NY 10455<br/><br/>
+
+BronxWorks Burnside Avenue Office<br/>
+2070 Grand Concourse<br/>
+Bronx, NY 10457<br/><br/>
+
+BronxWorks Bedford Park Office<br/>
+2925 Grand Concourse<br/>
+(entrance on 199th St.)<br/>
+Bronx, NY 10468<br/><br/>
+
+BronxWorks Townsend Ave. Office<br/>
+1477 Townsend Ave.<br/>
+(entrance on 172nd St.)<br/>
+Bronx, NY 10452<br/>
+  </div>
+
+
+  <div class="contentSpacer"></div>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom disclaimer">
+  <div class="disclaimer-content">The filmmakers and associated production companies behind Hold Me Down do not make any representations or warranties concerning the above-referenced organizations. For information pertaining to each organization’s business practices and/or any tax implications concerning donations, please refer to such individual organizations.
+  </div>
+</nav>

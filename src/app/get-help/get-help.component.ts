@@ -20,6 +20,11 @@ export class GetHelpComponent implements OnInit {
   public goToHousing(): void{
      this.router.navigate(['/help/housing']);
   }
+  public goToFood(): void{
+     this.router.navigate(['/help/food']);
+  }
+
+
 
 
   constructor(
