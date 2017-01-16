@@ -1,0 +1,33 @@
+<div class="menu-container">
+  <div class="spacer">
+    <div class="quote-text">
+    <span class="quote">“Not everything that is faced can be changed, but nothing can be changed until it is faced.”</span><br/> - James Baldwin</div>
+  </div>
+  <div class="menu">
+    <div class="menu-item" (click)="content= 'habitat'" >HABITAT FOR HUMANITY</div>
+    <div class="menu-item" (click)="content='bronx'">BRONXWORKS</div>
+    <div class="menu-item" (click)="content ='cares'">NEW YORK CARES</div>
+    <div class="menu-item" (click)="content ='horizon'">SAFE HORIZON</div>
+  </div>
+  <div class="content" *ngIf="content==='habitat'">
+    Be part of the change you want to see in your community by volunteering with your local Habitat for Humanity. They offer several opportunities to build or repair homes with families, as well as opportunities to volunteer at your local ReStore. Partake in building a world where everyone has a decent place to live. Find your nearest Habitat location and learn about national volunteer opportunities at http://www.habitat.org/.
+  </div>
+
+  <div class="content" *ngIf="content==='bronx'">
+    BronxWorks helps individuals and families improve their economic and social well-being. From toddlers to seniors, they feed, shelter, teach, and support Bronx locals to build a stronger community.<br/><br/>
+    BronxWorks efforts include Food Stamp outreach, homelessness prevention, job skills training, budgeting and financial literacy counseling, benefits assistance, health insurance assistance, Early Childhood Learning Centers for preschoolers, a high school for students who have fallen behind academically, out-of-school youth programs, foster care prevention, and supportive housing among many other vital services.<br/><br/>
+    For information regarding volunteering at BronxWorks or to apply, contact L. Andrew Lin at llin@bronxworks.org or visit their website:
+    http://www.bronxworks.org/volunteer-opportunities.
+  </div>
+
+  <div class="content" *ngIf="content==='cares'">
+    New York Cares offers over 1,600 volunteering opportunities a month. They mentor students, serve meals in soup kitchens, collect clothes, help the homeless get back on their feet, and much more. Whether you’re looking for a long-term effort, or to partake in a single selfless act, visit https://www.newyorkcares.org/ today.
+  </div>
+
+  <div class="content" *ngIf="content==='horizon'">
+    Safe Horizon is the nation’s leading victim assistance organization. Their mission is to prevent violence and promote justice for all by providing assistance, advocacy and support to victims who have experienced domestic violence, child abuse, sexual assault, stalking, human trafficking, youth homelessness and other crimes.<br/><br/>
+    Visit https://www.safehorizon.org/volunteer/ to learn more and find volunteering opportunities.
+  </div>
+
+  <div class="contentSpacer"></div>
+</div>

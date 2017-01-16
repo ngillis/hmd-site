@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-action',
@@ -6,10 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./action.component.scss']
 })
 export class ActionComponent implements OnInit {
-  
-  constructor() { }
+  content = '';
+
+  public goToVolunteer(): void{
+     this.router.navigate(['/action/volunteer']);
+  }
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router
+) { }
 
   ngOnInit() {
   }
+
+
 
 }
