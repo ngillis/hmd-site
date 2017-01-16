@@ -21,6 +21,8 @@ import { JobComponent } from './job/job.component';
 import { ViolenceComponent } from './violence/violence.component';
 import { ProstitutionComponent } from './prostitution/prostitution.component';
 import { HealthcareComponent } from './healthcare/healthcare.component';
+import { ChildcareComponent } from './childcare/childcare.component';
+import { FinancialComponent } from './financial/financial.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -32,6 +34,8 @@ const appRoutes: Routes = [
   {path: 'help/domestic-violence', component:ViolenceComponent},
   {path: 'help/prostitution', component:ProstitutionComponent},
   {path: 'help/healthcare', component:HealthcareComponent},
+  {path: 'help/childcare', component:ChildcareComponent},
+  {path: 'help/financial', component:FinancialComponent},
   {path: 'issue', component:IssueComponent},
   {path: 'action', component:ActionComponent},
   {path:'action/volunteer', component:VolunteerComponent},
@@ -63,7 +67,9 @@ const appRoutes: Routes = [
     JobComponent,
     ViolenceComponent,
     ProstitutionComponent,
-    HealthcareComponent
+    HealthcareComponent,
+    ChildcareComponent,
+    FinancialComponent
   ],
   imports: [
     BrowserModule,

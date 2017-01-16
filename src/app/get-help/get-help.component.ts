@@ -36,6 +36,14 @@ export class GetHelpComponent implements OnInit {
     this.router.navigate(['/help/healthcare']);
   }
 
+  public goToChildcare(): void{
+    this.router.navigate(['/help/childcare']);
+  }
+  public goToFinancial(): void{
+    this.router.navigate(['/help/financial']);
+  }
+
+
 
 
 
