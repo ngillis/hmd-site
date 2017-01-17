@@ -2,7 +2,7 @@
 body{
   font-family: "Montserrat" !important;
   padding-top:50px;
-    line-height: 1.65;
+  line-height: 1.8 !important;
 }
 @media screen and (min-width: 576px){
   .navbar{
@@ -188,5 +188,5 @@ carousel-control-prev {
 }
 
 .carousel-indicators{
-  display:none;
+  opacity: 0.6;
 }
