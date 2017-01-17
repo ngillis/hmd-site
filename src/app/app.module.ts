@@ -81,4 +81,14 @@ const appRoutes: Routes = [
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
+
+export class NgbdCarouselConfig {
+  constructor(config: NgbCarouselConfig) {
+    // customize default values of carousels used by this component tree
+    config.interval = 2000;
+    config.wrap = false;
+    config.keyboard = false;
+  }
+}
