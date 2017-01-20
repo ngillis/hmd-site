@@ -118,15 +118,16 @@ h2{font-size: 26px; margin-bottom:36px;}
 .words{
   width: 400px;
   font-size:12px;
-  margin: 0px 0px 0px 0px;
+  margin: 16px 0px 0px 0px;
   text-align:justify;
+  &:first-of-type{margin-top: 0px;}
   &:last-of-type{margin-bottom:0px;}
   &.intro{margin-top: 0px;}
   h2{margin-bottom:16px;}
 }
 .quote{font-style:italic;}
-.image-desc{text-align:center; font-style:italic; margin-bottom:36px;}
-.image-desc-1{text-align:center; font-style:italic; margin-bottom:32px;}
+.image-desc{text-align:center; font-style:italic; margin-bottom:36px; font-size:12px;}
+.image-desc-1{text-align:center; font-style:italic; margin-bottom:32px; font-size:12px;}
 
 .cover-image{
   width:100%;
