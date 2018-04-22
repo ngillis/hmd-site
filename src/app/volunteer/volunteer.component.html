@@ -7,11 +7,17 @@
   </div>
   <div class="menu">
     <h2 class="sub-title">I WANT TO BECOME A VOLUNTEER</h2>
+    <div class="menu-item" (click)="content ='project-rousseau'">PROJECT ROUSSEAU</div>
     <div class="menu-item" (click)="content= 'habitat'" >HABITAT FOR HUMANITY</div>
     <div class="menu-item" (click)="content='bronx'">BRONXWORKS</div>
     <div class="menu-item" (click)="content ='cares'">NEW YORK CARES</div>
     <div class="menu-item" (click)="content ='horizon'">SAFE HORIZON</div>
   </div>
+
+  <div class="content" *ngIf="content==='project-rousseau'">
+    Project Rousseau is our official partner. They have helped the women in Hold Me Down gain stability in their lives and access to the tools they need to pursue their dreams. To learn more and become a volunteer, please visit <a href='http://www.projectrousseau.org/volunteer/'>http://www.projectrousseau.org/volunteer/</a>.
+  </div>
+
   <div class="content" *ngIf="content==='habitat'">
     Be part of the change you want to see in your community by volunteering with your local Habitat for Humanity. They offer several opportunities to build or repair homes with families, as well as opportunities to volunteer at your local ReStore. Partake in building a world where everyone has a decent place to live. Find your nearest Habitat location and learn about national volunteer opportunities at <a href="http://www.habitat.org/" target="blank">http://www.habitat.org/</a>.
   </div>
