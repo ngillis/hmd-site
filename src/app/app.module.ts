@@ -9,6 +9,7 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
+import { ProjectRousseauComponent } from './project-rousseau/project-rousseau.component'
 import { GetHelpComponent } from './get-help/get-help.component';
 import { IssueComponent } from './issue/issue.component';
 import { ActionComponent } from './action/action.component';
@@ -28,6 +29,7 @@ import { FinancialComponent } from './financial/financial.component';
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'project-rousseau', component: ProjectRousseauComponent },
   {path: 'help', component:GetHelpComponent},
   {path: 'help/housing', component:HousingComponent},
   {path: 'help/food', component:FoodComponent},
@@ -56,6 +58,7 @@ const appRoutes: Routes = [
     AppComponent,
     AboutComponent,
     HomeComponent,
+    ProjectRousseauComponent,
     GetHelpComponent,
     IssueComponent,
     ActionComponent,
