@@ -7,6 +7,7 @@
   </div>
   <div class="menu">
     <h2 class="sub-title">I WANT TO DONATE TO A CAUSE I BELIEVE IN</h2>
+    <div class="menu-item" (click)="content= 'project-rousseau'" >PROJECT ROUSSEAU</div>
     <div class="menu-item" (click)="content= 'horizon'" >SAFE HORIZON</div>
     <div class="menu-item" (click)="content='gems'">GEMS</div>
     <div class="menu-item" (click)="content ='awid'">AWID</div>
@@ -14,12 +15,15 @@
     <div class="menu-item" (click)="content ='habitat'">HABITAT FOR HUMANITY</div>
     <div class="menu-item" (click)="content ='lift'">LIFT</div>
     <div class="menu-item" (click)="content ='parenthood'">PLANNED PARENTHOOD</div>
-
   </div>
+
+  <div class="content" *ngIf="content==='project-rousseau'">
+    Project Rousseau is our official partner. They have helped the women in Hold Me Down gain stability in their lives and access to the tools they need to pursue their dreams. To learn more and make a donation, please visit: <a href='http://www.projectrousseau.org/donate/'>http://www.projectrousseau.org/donate/</a>.
+  </div>
+
   <div class="content" *ngIf="content==='horizon'">
     Safe Horizon is the nation’s leading victim assistance organization. Their mission is to prevent violence and promote justice for all by providing assistance, advocacy and support to victims who have experienced domestic violence, child abuse, sexual assault, stalking, human trafficking, youth homelessness and other crimes.<br/><br/>
     Visit <a href="https://www.safehorizon.org/" target="blank"> https://www.safehorizon.org/</a> to make an online donation today or simply to learn more about Safe Horizon.
-
   </div>
 
   <div class="content" *ngIf="content==='gems'">
