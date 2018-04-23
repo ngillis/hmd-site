@@ -1,14 +1,26 @@
 <!-- <h1>Angular Router</h1> -->
 <!-- Image and text -->
-<nav class="navbar title  navbar-fixed-top">
-  <a href="#" class="holdMeDownTitle">HOLD ME DOWN</a>
-  <a routerLink="/issue" routerLinkActive="active">THE ISSUE</a>
-  <a routerLink="/project-rousseau" routerLinkActive="active" >GET HELP</a>
-  <a routerLink="/action" routerLinkActive="active">TAKE ACTION</a>
-  <a routerLink="/contact" routerLinkActive="active">CONTACT</a>
-  <a class="spacer-nav" href="#"></a>
+<nav class="navbar navbar-dark title navbar-fixed-top">
+  <a class='navbar-brand holdMeDownTitle' href='#'>HOLD ME DOWN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#holdMeDownNavCollapse" aria-controls="holdMeDownNavCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class='collapse navbar-collapse' id='holdMeDownNavCollapse'>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/issue" routerLinkActive="active">THE ISSUE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/project-rousseau" routerLinkActive="active">GET HELP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/action" routerLinkActive="active">TAKE ACTION</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active">CONTACT</a>
+      </li>
+    </ul>
+  </div>
 </nav>
-
-
 
 <router-outlet></router-outlet>

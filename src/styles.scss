@@ -31,9 +31,7 @@ h2{font-size: 26px; margin-bottom:36px;}
   .holdMeDownTitle{
     font-size: 24px;
     letter-spacing: 0.30rem;
-    flex:none;
     padding-left:22px;
-    width:400px;
   }
 }
 .content-spacer{flex: 1 1 106px; border:1px solid pink;}
@@ -209,3 +207,11 @@ carousel-control-next {
 
 .sub-title{margin-bottom: 16px;}
 // .active class is the fade
+
+.navbar-nav .nav-item {
+  list-style-type: none;
+}
+
+.navbar-nav .nav-link {
+  font-size: 14px;
+}
